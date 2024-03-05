@@ -6,7 +6,7 @@ function Banner() {
     return (
         <>
             <Helmet>
-                <script src="/src/javascript.js"></script>
+                <script src="/js/javascript.js"></script>
             </Helmet>
             <section className='banner py-[70px] px-[0px] bg-stone-700'>
                 <div className='container w-[90%] mx-[auto] my-[30px]'>
