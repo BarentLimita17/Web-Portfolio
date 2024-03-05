@@ -1,13 +1,13 @@
-// import { Helmet } from "react-helmet";
-import useScript from '../../hooks/useScript';
+import { Helmet } from "react-helmet";
+// import useScript from '../../hooks/useScript';
 
 function Banner() {
-    useScript('/src/javascript.js');
+    // useScript('/src/javascript.js');
     return (
         <>
-            {/* <Helmet>
+            <Helmet>
                 <script src="/src/javascript.js"></script>
-            </Helmet> */}
+            </Helmet>
             <section className='banner py-[70px] px-[0px] bg-stone-700'>
                 <div className='container w-[90%] mx-[auto] my-[30px]'>
                     <div className='banner-left pl-[24px]'>
